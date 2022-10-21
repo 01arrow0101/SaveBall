@@ -1,0 +1,309 @@
+@import "normalizez.scss"
+@import "resets.scss"
+*
+	box-sizing: border-box
+*::before,
+*::after
+	padding: 0
+	margin: 0	
+body
+	max-width: 1920px
+	font-family: Jost
+	font-weight: bold
+	height: 100%
+// Змінні
+$color-text-white: #fff
+$color-text-black: #000
+$color-span: #0099FF
+$color-text-yellow: #FFC107
+$background-white: #fff
+$background-gray: #3A3A3A
+$background-gradient: linear-gradient(180deg, #FFC107 31.25%, #3A3A3A 100%)
+$text-shadow-blue: 5px 5px 4px rgba(0, 153, 255, 0.25)
+$text-shadow-yellow: 5px 5px 4px rgba(255, 193, 7, 0.25)
+$box-shadow-card: 5px 5px 2px rgba(0, 0, 0, 0.5)
+
+.container
+	max-width: 1140px
+	margin: 0 auto
+.bg__grey
+	background-color: $background-gray
+
+// Шапка
+
+.header__logo
+	position: relative
+.logo
+	position: absolute
+	left: 120px
+	top: 2px
+	max-width: 40px
+	max-height: 40px
+	&__text
+		font-weight: 800
+		font-size: 32px
+		line-height: 46px
+		color: $color-text-yellow
+		text-shadow: $text-shadow-blue
+	&__span-text
+		color: $color-span
+		text-shadow: $text-shadow-yellow
+.lang
+	margin-right: 10px
+	&__position
+		margin-right: 50px
+	&__box
+		display: flex
+		align-items: center
+.nav-link
+	font-weight: 400
+	font-size: 24px
+	line-height: 30px
+	color: $color-text-white
+	&:hover,
+	&:active,
+	&:focus
+		color: $color-text-yellow
+.link-active
+	font-weight: 700
+	color: $color-span
+.dropdown-item
+	font-size: 20px
+	font-weight: 400
+	&:active
+		color: $color-span
+.item-bg
+	&:hover
+		background-color: $color-text-yellow
+		border-radius: 10%
+		transition: 0.5s
+
+// СЕКЦІЯ 1
+
+.section__one
+	background-image: url(../img/bg.jpg)
+	min-height: 1166px
+	padding-top: 160px
+	background-repeat: repeat
+	background-size: cover
+.box
+	padding-left: 12px
+	&__two
+		max-width: 600px	
+.one
+	max-width: 1140px
+	&__block
+		justify-content: space-evenly
+	&__text-wellcome
+		font-weight: 400
+		font-size: 60px
+		color: $color-text-white
+		margin-bottom: 30px
+	&__title
+		font-size: 60px
+		text-transform: uppercase
+		color: $color-text-yellow
+		text-shadow: $text-shadow-blue
+		margin-bottom: 30px
+	&__text
+		font-size: 25px
+		color: $color-text-white
+		margin-bottom: 50px
+.btn
+	padding: 1rem 1rem
+	font-weight: 700
+	font-size: 25px
+	margin-right: 30px
+
+// СЕКЦІЯ 2
+.box__two img
+	max-width: 600px
+.two
+	max-width: 1140px
+	margin: 0 auto
+	text-align: center
+	&__title
+		font-size: 40px
+		line-height: 58px
+		text-transform: uppercase
+		color: $color-text-yellow
+		padding-top: 6.25rem
+		margin-bottom: 50px
+	&__cards
+		margin-bottom: 50px
+	&__about-work
+		font-size: 25px
+		margin-bottom: 16px
+		text-transform: uppercase
+		color: $color-text-yellow
+.card
+	box-shadow: $box-shadow-card
+
+// Секція 3		
+
+.section__three
+	background: $background-gradient
+	margin: 0 auto
+.three
+	height: 100%
+	&__title
+		font-size: 40px	
+		text-align: center
+		padding-top: 100px	
+		margin-bottom: 50px
+		color: $color-span
+		text-transform: uppercase
+	&__carusel
+		max-width: 60%
+		margin: 0 auto
+		padding-bottom: 100px
+.carusel		
+	&__title
+		font-size: 30px
+		color: $color-text-white
+
+	&__text
+		font-size: 20px
+		color: $color-text-white
+
+// Секція 4
+
+.section__four
+	background-color: $background-gray
+.four
+	margin: 0 auto
+	&__title
+		font-size: 40px
+		color: $color-text-yellow
+		text-align: center
+		padding-top: 100px
+		margin-bottom: 50px
+		text-transform: uppercase
+
+	&__box
+		padding-bottom: 50px					
+.price-img
+	max-width: 100px
+	margin: 0 auto  
+	padding-top: 8px
+.card_price
+	max-width: 17rem	
+.card-header
+	font-size: 25px
+	text-align: center
+.list-group-item
+	font-size: 20px		
+
+// СЕКЦІЯ 5
+
+.five
+	&__title
+		text-align: center
+		margin-bottom: 30px
+	&__list
+		text-align: center
+		margin-bottom: 30px
+	&__item
+		margin-bottom: 8px
+	&__span_text
+		color: $color-span	
+.repair
+	padding-top: 100px		
+.repair,
+.order,
+.delivery
+	margin-bottom: 30px	
+	text-align: center
+.end_container
+	margin-bottom: 100px
+
+// FOOTER
+.footer a
+	text-decoration: none
+.title_text
+	text-align: center	
+.footer
+	background-color: $background-gray
+	padding-top: 100px
+	&__box
+		margin-bottom: 50px
+	&__title
+		margin-bottom: 30px
+		font-size: 20px
+		line-height: 29px
+		color: $color-text-yellow
+		text-transform: uppercase
+	&__item
+		margin-bottom: 10px
+		font-size: 20px
+		line-height: 29px
+		color: $color-text-yellow
+		text-transform: uppercase
+	&__logo
+		position: absolute
+		left: 265px
+		top: -15px
+		width: 80px
+		&_box
+			position: relative
+			width: 435px
+			margin: 0 auto
+		&_text
+			font-size: 70px
+			font-weight: 800
+			line-height: 46px
+			color: $color-text-yellow
+			text-shadow: $text-shadow-blue
+			margin-bottom: 70px
+	&__link
+		font-size: 20px
+		line-height: 29px
+		color: $color-text-white
+		text-transform: none
+		&:hover,
+		&:active,
+		&:focus
+			color: $color-span
+		&_num
+			margin-left: 121px		
+	&__list img
+		max-width: 80px
+	&__line
+		border: none
+		border-top: solid 1px #fff
+	&__corp_text
+		text-align: center
+		padding-bottom: 30px
+		color: $color-span		
+.social
+	margin: 0 auto
+	text-align: center
+
+				
+@media ( max-width: 1199px )
+	.nav-link
+		font-size: 23px
+	.lang__position
+		margin-right: 40px
+	.one__text_wellcome,
+	.one__title
+		font-size: 50px
+	.btn
+		font-size: 20px			
+	.box__two img
+		max-width: 490px
+	.card
+		max-width: 19rem
+		&_price
+			max-width: 14rem
+	.footer
+		&__title,
+		&__link
+			font-size: 17px
+
+@media (max-width: 4000px)
+	body
+		max-width: 4000px				
+			
+				
+
