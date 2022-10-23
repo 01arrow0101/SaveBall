@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -6,12 +5,9 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, ../../Ремонт мячів/src/sass/normalizez.scss */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -19,7 +15,6 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, ../../Ремонт мячів/src/sass/normalizez.scss */
 body {
   margin: 0;
 }
@@ -27,7 +22,6 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 31, ../../Ремонт мячів/src/sass/normalizez.scss */
 main {
   display: block;
 }
@@ -36,7 +30,6 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 40, ../../Ремонт мячів/src/sass/normalizez.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -48,26 +41,19 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 53, ../../Ремонт мячів/src/sass/normalizez.scss */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 64, ../../Ремонт мячів/src/sass/normalizez.scss */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -75,7 +61,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 76, ../../Ремонт мячів/src/sass/normalizez.scss */
 a {
   background-color: transparent;
 }
@@ -84,20 +69,16 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 85, ../../Ремонт мячів/src/sass/normalizez.scss */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 95, ../../Ремонт мячів/src/sass/normalizez.scss */
 b,
 strong {
   font-weight: bolder;
@@ -107,20 +88,16 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 105, ../../Ремонт мячів/src/sass/normalizez.scss */
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
  * Add the correct font size in all browsers.
  */
-/* line 116, ../../Ремонт мячів/src/sass/normalizez.scss */
 small {
   font-size: 80%;
 }
@@ -129,7 +106,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 125, ../../Ремонт мячів/src/sass/normalizez.scss */
 sub,
 sup {
   font-size: 75%;
@@ -138,12 +114,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 133, ../../Ремонт мячів/src/sass/normalizez.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 137, ../../Ремонт мячів/src/sass/normalizez.scss */
 sup {
   top: -0.5em;
 }
@@ -153,7 +127,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 148, ../../Ремонт мячів/src/sass/normalizez.scss */
 img {
   border-style: none;
 }
@@ -164,30 +137,23 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 160, ../../Ремонт мячів/src/sass/normalizez.scss */
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 176, ../../Ремонт мячів/src/sass/normalizez.scss */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -195,32 +161,28 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 186, ../../Ремонт мячів/src/sass/normalizez.scss */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 195, ../../Ремонт мячів/src/sass/normalizez.scss */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 206, ../../Ремонт мячів/src/sass/normalizez.scss */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -228,18 +190,16 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 218, ../../Ремонт мячів/src/sass/normalizez.scss */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
-/* line 229, ../../Ремонт мячів/src/sass/normalizez.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -250,26 +210,18 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 240, ../../Ремонт мячів/src/sass/normalizez.scss */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 253, ../../Ремонт мячів/src/sass/normalizez.scss */
 progress {
   vertical-align: baseline;
 }
@@ -277,7 +229,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 261, ../../Ремонт мячів/src/sass/normalizez.scss */
 textarea {
   overflow: auto;
 }
@@ -286,21 +237,17 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 270, ../../Ремонт мячів/src/sass/normalizez.scss */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 280, ../../Ремонт мячів/src/sass/normalizez.scss */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -308,19 +255,15 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 290, ../../Ремонт мячів/src/sass/normalizez.scss */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 299, ../../Ремонт мячів/src/sass/normalizez.scss */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -328,12 +271,9 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 308, ../../Ремонт мячів/src/sass/normalizez.scss */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -341,7 +281,6 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 320, ../../Ремонт мячів/src/sass/normalizez.scss */
 details {
   display: block;
 }
@@ -349,7 +288,6 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 328, ../../Ремонт мячів/src/sass/normalizez.scss */
 summary {
   display: list-item;
 }
@@ -359,7 +297,6 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 339, ../../Ремонт мячів/src/sass/normalizez.scss */
 template {
   display: none;
 }
@@ -367,12 +304,10 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 347, ../../Ремонт мячів/src/sass/normalizez.scss */
 [hidden] {
   display: none;
 }
 
-/* line 1, ../../Ремонт мячів/src/sass/resets.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -394,58 +329,48 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 21, ../../Ремонт мячів/src/sass/resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 25, ../../Ремонт мячів/src/sass/resets.scss */
 html {
   height: 100%;
 }
 
-/* line 28, ../../Ремонт мячів/src/sass/resets.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, ../../Ремонт мячів/src/sass/resets.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 34, ../../Ремонт мячів/src/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 37, ../../Ремонт мячів/src/sass/resets.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
-/* line 42, ../../Ремонт мячів/src/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 3, ../../Ремонт мячів/src/sass/style.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 5, ../../Ремонт мячів/src/sass/style.sass */
 *::before,
 *::after {
   padding: 0;
   margin: 0;
 }
 
-/* line 9, ../../Ремонт мячів/src/sass/style.sass */
 body {
   max-width: 1920px;
   font-family: Jost;
@@ -453,23 +378,14 @@ body {
   height: 100%;
 }
 
-/* line 26, ../../Ремонт мячів/src/sass/style.sass */
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-/* line 29, ../../Ремонт мячів/src/sass/style.sass */
 .bg__grey {
   background-color: #3A3A3A;
 }
 
-/* line 34, ../../Ремонт мячів/src/sass/style.sass */
 .header__logo {
   position: relative;
 }
 
-/* line 36, ../../Ремонт мячів/src/sass/style.sass */
 .logo {
   position: absolute;
   left: 120px;
@@ -477,8 +393,6 @@ body {
   max-width: 40px;
   max-height: 40px;
 }
-
-/* line 42, ../../Ремонт мячів/src/sass/style.sass */
 .logo__text {
   font-weight: 800;
   font-size: 32px;
@@ -486,104 +400,80 @@ body {
   color: #FFC107;
   text-shadow: 5px 5px 4px rgba(0, 153, 255, 0.25);
 }
-
-/* line 48, ../../Ремонт мячів/src/sass/style.sass */
 .logo__span-text {
   color: #0099FF;
   text-shadow: 5px 5px 4px rgba(255, 193, 7, 0.25);
 }
 
-/* line 51, ../../Ремонт мячів/src/sass/style.sass */
 .lang {
   margin-right: 10px;
 }
-
-/* line 53, ../../Ремонт мячів/src/sass/style.sass */
 .lang__position {
   margin-right: 50px;
 }
-
-/* line 55, ../../Ремонт мячів/src/sass/style.sass */
 .lang__box {
   display: flex;
   align-items: center;
 }
 
-/* line 58, ../../Ремонт мячів/src/sass/style.sass */
 .nav-link {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
   color: #fff;
 }
-
-/* line 63, ../../Ремонт мячів/src/sass/style.sass */
 .nav-link:hover, .nav-link:active, .nav-link:focus {
   color: #FFC107;
 }
 
-/* line 67, ../../Ремонт мячів/src/sass/style.sass */
 .link-active {
   font-weight: 700;
   color: #0099FF;
 }
 
-/* line 70, ../../Ремонт мячів/src/sass/style.sass */
 .dropdown-item {
   font-size: 20px;
   font-weight: 400;
 }
-
-/* line 73, ../../Ремонт мячів/src/sass/style.sass */
 .dropdown-item:active {
   color: #0099FF;
 }
 
-/* line 76, ../../Ремонт мячів/src/sass/style.sass */
 .item-bg:hover {
   background-color: #FFC107;
   border-radius: 10%;
   transition: 0.5s;
 }
 
-/* line 83, ../../Ремонт мячів/src/sass/style.sass */
+.navbar-toggler:focus {
+  box-shadow: 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
 .section__one {
   background-image: url(../img/bg.jpg);
-  min-height: 1166px;
+  min-height: 1156px;
   padding-top: 160px;
   background-repeat: repeat;
   background-size: cover;
 }
 
-/* line 89, ../../Ремонт мячів/src/sass/style.sass */
 .box {
   padding-left: 12px;
 }
-
-/* line 91, ../../Ремонт мячів/src/sass/style.sass */
 .box__two {
   max-width: 600px;
+  text-align: center;
 }
 
-/* line 93, ../../Ремонт мячів/src/sass/style.sass */
-.one {
-  max-width: 1140px;
-}
-
-/* line 95, ../../Ремонт мячів/src/sass/style.sass */
 .one__block {
   justify-content: space-evenly;
 }
-
-/* line 97, ../../Ремонт мячів/src/sass/style.sass */
 .one__text-wellcome {
   font-weight: 400;
   font-size: 60px;
   color: #fff;
   margin-bottom: 30px;
 }
-
-/* line 102, ../../Ремонт мячів/src/sass/style.sass */
 .one__title {
   font-size: 60px;
   text-transform: uppercase;
@@ -591,15 +481,12 @@ body {
   text-shadow: 5px 5px 4px rgba(0, 153, 255, 0.25);
   margin-bottom: 30px;
 }
-
-/* line 108, ../../Ремонт мячів/src/sass/style.sass */
 .one__text {
   font-size: 25px;
   color: #fff;
   margin-bottom: 50px;
 }
 
-/* line 112, ../../Ремонт мячів/src/sass/style.sass */
 .btn {
   padding: 1rem 1rem;
   font-weight: 700;
@@ -607,19 +494,10 @@ body {
   margin-right: 30px;
 }
 
-/* line 119, ../../Ремонт мячів/src/sass/style.sass */
-.box__two img {
-  max-width: 600px;
-}
-
-/* line 121, ../../Ремонт мячів/src/sass/style.sass */
 .two {
-  max-width: 1140px;
   margin: 0 auto;
   text-align: center;
 }
-
-/* line 125, ../../Ремонт мячів/src/sass/style.sass */
 .two__title {
   font-size: 40px;
   line-height: 58px;
@@ -628,13 +506,9 @@ body {
   padding-top: 6.25rem;
   margin-bottom: 50px;
 }
-
-/* line 132, ../../Ремонт мячів/src/sass/style.sass */
 .two__cards {
   margin-bottom: 50px;
 }
-
-/* line 134, ../../Ремонт мячів/src/sass/style.sass */
 .two__about-work {
   font-size: 25px;
   margin-bottom: 16px;
@@ -642,23 +516,16 @@ body {
   color: #FFC107;
 }
 
-/* line 139, ../../Ремонт мячів/src/sass/style.sass */
 .card {
   box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
 }
 
-/* line 144, ../../Ремонт мячів/src/sass/style.sass */
 .section__three {
   background: linear-gradient(180deg, #FFC107 31.25%, #3A3A3A 100%);
   margin: 0 auto;
 }
 
-/* line 147, ../../Ремонт мячів/src/sass/style.sass */
-.three {
-  height: 100%;
-}
-
-/* line 149, ../../Ремонт мячів/src/sass/style.sass */
 .three__title {
   font-size: 40px;
   text-align: center;
@@ -667,37 +534,28 @@ body {
   color: #0099FF;
   text-transform: uppercase;
 }
-
-/* line 156, ../../Ремонт мячів/src/sass/style.sass */
 .three__carusel {
-  max-width: 60%;
+  max-width: 50%;
   margin: 0 auto;
   padding-bottom: 100px;
 }
 
-/* line 161, ../../Ремонт мячів/src/sass/style.sass */
 .carusel__title {
   font-size: 30px;
   color: #fff;
 }
-
-/* line 165, ../../Ремонт мячів/src/sass/style.sass */
 .carusel__text {
   font-size: 20px;
   color: #fff;
 }
 
-/* line 171, ../../Ремонт мячів/src/sass/style.sass */
 .section__four {
   background-color: #3A3A3A;
 }
 
-/* line 173, ../../Ремонт мячів/src/sass/style.sass */
 .four {
   margin: 0 auto;
 }
-
-/* line 175, ../../Ремонт мячів/src/sass/style.sass */
 .four__title {
   font-size: 40px;
   color: #FFC107;
@@ -706,63 +564,48 @@ body {
   margin-bottom: 50px;
   text-transform: uppercase;
 }
-
-/* line 183, ../../Ремонт мячів/src/sass/style.sass */
 .four__box {
   padding-bottom: 50px;
 }
 
-/* line 185, ../../Ремонт мячів/src/sass/style.sass */
 .price-img {
   max-width: 100px;
   margin: 0 auto;
   padding-top: 8px;
 }
 
-/* line 189, ../../Ремонт мячів/src/sass/style.sass */
 .card_price {
   max-width: 17rem;
 }
 
-/* line 191, ../../Ремонт мячів/src/sass/style.sass */
 .card-header {
   font-size: 25px;
   text-align: center;
 }
 
-/* line 194, ../../Ремонт мячів/src/sass/style.sass */
 .list-group-item {
   font-size: 20px;
 }
 
-/* line 200, ../../Ремонт мячів/src/sass/style.sass */
 .five__title {
   text-align: center;
   margin-bottom: 30px;
 }
-
-/* line 203, ../../Ремонт мячів/src/sass/style.sass */
 .five__list {
   text-align: center;
   margin-bottom: 30px;
 }
-
-/* line 206, ../../Ремонт мячів/src/sass/style.sass */
 .five__item {
   margin-bottom: 8px;
 }
-
-/* line 208, ../../Ремонт мячів/src/sass/style.sass */
 .five__span_text {
   color: #0099FF;
 }
 
-/* line 210, ../../Ремонт мячів/src/sass/style.sass */
 .repair {
   padding-top: 100px;
 }
 
-/* line 212, ../../Ремонт мячів/src/sass/style.sass */
 .repair,
 .order,
 .delivery {
@@ -770,33 +613,25 @@ body {
   text-align: center;
 }
 
-/* line 217, ../../Ремонт мячів/src/sass/style.sass */
 .end_container {
   margin-bottom: 100px;
 }
 
-/* line 221, ../../Ремонт мячів/src/sass/style.sass */
 .footer a {
   text-decoration: none;
 }
 
-/* line 223, ../../Ремонт мячів/src/sass/style.sass */
 .title_text {
   text-align: center;
 }
 
-/* line 225, ../../Ремонт мячів/src/sass/style.sass */
 .footer {
   background-color: #3A3A3A;
   padding-top: 100px;
 }
-
-/* line 228, ../../Ремонт мячів/src/sass/style.sass */
 .footer__box {
   margin-bottom: 50px;
 }
-
-/* line 230, ../../Ремонт мячів/src/sass/style.sass */
 .footer__title {
   margin-bottom: 30px;
   font-size: 20px;
@@ -804,8 +639,6 @@ body {
   color: #FFC107;
   text-transform: uppercase;
 }
-
-/* line 236, ../../Ремонт мячів/src/sass/style.sass */
 .footer__item {
   margin-bottom: 10px;
   font-size: 20px;
@@ -813,23 +646,17 @@ body {
   color: #FFC107;
   text-transform: uppercase;
 }
-
-/* line 242, ../../Ремонт мячів/src/sass/style.sass */
 .footer__logo {
   position: absolute;
   left: 265px;
   top: -15px;
   width: 80px;
 }
-
-/* line 247, ../../Ремонт мячів/src/sass/style.sass */
 .footer__logo_box {
   position: relative;
   width: 435px;
   margin: 0 auto;
 }
-
-/* line 251, ../../Ремонт мячів/src/sass/style.sass */
 .footer__logo_text {
   font-size: 70px;
   font-weight: 800;
@@ -838,90 +665,171 @@ body {
   text-shadow: 5px 5px 4px rgba(0, 153, 255, 0.25);
   margin-bottom: 70px;
 }
-
-/* line 258, ../../Ремонт мячів/src/sass/style.sass */
 .footer__link {
   font-size: 20px;
   line-height: 29px;
   color: #fff;
   text-transform: none;
 }
-
-/* line 263, ../../Ремонт мячів/src/sass/style.sass */
 .footer__link:hover, .footer__link:active, .footer__link:focus {
   color: #0099FF;
 }
-
-/* line 267, ../../Ремонт мячів/src/sass/style.sass */
 .footer__link_num {
   margin-left: 121px;
 }
-
-/* line 269, ../../Ремонт мячів/src/sass/style.sass */
 .footer__list img {
   max-width: 80px;
 }
-
-/* line 271, ../../Ремонт мячів/src/sass/style.sass */
 .footer__line {
   border: none;
   border-top: solid 1px #fff;
 }
-
-/* line 274, ../../Ремонт мячів/src/sass/style.sass */
 .footer__corp_text {
   text-align: center;
   padding-bottom: 30px;
   color: #0099FF;
 }
 
-/* line 278, ../../Ремонт мячів/src/sass/style.sass */
 .social {
   margin: 0 auto;
   text-align: center;
 }
 
-@media (max-width: 1199px) {
-  /* line 284, ../../Ремонт мячів/src/sass/style.sass */
+@media (max-width: 576px) {
+  body {
+    max-width: 576px;
+  }
+  .container-sx {
+    max-width: 100%;
+  }
+  .section__one {
+    position: relative;
+    padding-top: 80px;
+  }
+  .box__button {
+    text-align: center;
+  }
+  .box__two {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+  }
+  .two__title {
+    padding: 0;
+  }
+  .card {
+    margin-bottom: 16px;
+    max-width: 22rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
   .nav-link {
-    font-size: 23px;
-  }
-  /* line 286, ../../Ремонт мячів/src/sass/style.sass */
-  .lang__position {
-    margin-right: 40px;
-  }
-  /* line 288, ../../Ремонт мячів/src/sass/style.sass */
-  .one__text_wellcome,
-  .one__title {
-    font-size: 50px;
-  }
-  /* line 291, ../../Ремонт мячів/src/sass/style.sass */
-  .btn {
     font-size: 20px;
   }
-  /* line 293, ../../Ремонт мячів/src/sass/style.sass */
-  .box__two img {
-    max-width: 490px;
+  .section__one {
+    min-height: 750px;
+    padding-top: 80px;
   }
-  /* line 295, ../../Ремонт мячів/src/sass/style.sass */
+  .one__text {
+    font-size: 15px;
+  }
+  .one__text-wellcome,
+.one__title {
+    font-size: 35px;
+  }
+  .box__button {
+    text-align: center;
+  }
+  .btn {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .box__two img {
+    max-width: 375px;
+  }
+  .two__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .two__about-work {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .three__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .four__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .two__cards {
+    margin-bottom: 30px;
+  }
+  .three__carusel {
+    padding-bottom: 50px;
+  }
   .card {
     max-width: 19rem;
   }
-  /* line 297, ../../Ремонт мячів/src/sass/style.sass */
   .card_price {
     max-width: 14rem;
+    margin: 0 auto 16px;
   }
-  /* line 300, ../../Ремонт мячів/src/sass/style.sass */
+  .two__about-work-img {
+    max-width: 150px;
+  }
   .footer__title, .footer__link {
     font-size: 17px;
   }
 }
-
-@media (max-width: 4000px) {
-  /* line 305, ../../Ремонт мячів/src/sass/style.sass */
-  body {
-    max-width: 4000px;
+@media (max-width: 1199px) {
+  .nav-link {
+    font-size: 23px;
+  }
+  .lang__position {
+    margin-right: 40px;
+  }
+  .one__text-wellcome,
+.one__title {
+    font-size: 50px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .box__two img {
+    max-width: 490px;
+  }
+  .card {
+    max-width: 19rem;
+  }
+  .card_price {
+    max-width: 14rem;
+  }
+  .footer__title, .footer__link {
+    font-size: 17px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 1920px) {
+  body {
+    max-width: 1920px;
+  }
+  .container-xxl {
+    max-width: 1325px;
+  }
+}
+@media (max-width: 2560px) {
+  body {
+    max-width: 2560px;
+  }
+  .container-xxl {
+    max-width: 1325px;
+  }
+}/*# sourceMappingURL=style.css.map */
