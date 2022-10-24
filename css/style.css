@@ -372,7 +372,6 @@ table {
 }
 
 body {
-  max-width: 1920px;
   font-family: Jost;
   font-weight: bold;
   height: 100%;
@@ -451,7 +450,7 @@ body {
 
 .section__one {
   background-image: url(../img/bg.jpg);
-  min-height: 1156px;
+  min-height: 1166px;
   padding-top: 160px;
   background-repeat: repeat;
   background-size: cover;
@@ -695,37 +694,102 @@ body {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  body {
-    max-width: 576px;
-  }
+@media screen and (max-width: 575px) {
   .container-sx {
-    max-width: 100%;
+    width: 100%;
   }
   .section__one {
+    width: 100%;
     position: relative;
-    padding-top: 80px;
+    padding-top: 3.75rem;
+  }
+  .one__text-wellcome {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  .one__title {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  .one__text {
+    font-size: 1rem;
+    margin-bottom: 1.875rem;
   }
   .box__button {
     text-align: center;
   }
+  .btn {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  .btn:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
   .box__two {
     position: absolute;
     right: 0;
-    bottom: 20%;
+    bottom: 40%;
+  }
+  .box__two img {
+    width: 18.75rem;
   }
   .two__title {
     padding: 0;
+    font-size: 1.75rem;
+    margin-bottom: 1.875rem;
+  }
+  .two__about-work {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
   }
   .card {
-    margin-bottom: 16px;
-    max-width: 22rem;
+    max-width: 18rem;
+    margin-bottom: 1rem;
+  }
+  .three__title {
+    font-size: 1.75rem;
+    padding-top: 3.125rem;
+    margin-bottom: 1.875rem;
+  }
+  .three__carusel {
+    max-width: 100%;
+    padding-bottom: 1.875rem;
+  }
+  .four__title {
+    font-size: 1.75rem;
+    padding-top: 3.125rem;
+    margin-bottom: 1.875rem;
+  }
+  .section__five h3 {
+    font-size: 1.25rem;
+  }
+  .five__title {
+    font-size: 1.75rem;
+    padding-top: 3.125rem;
+    margin-bottom: 1.875rem;
+  }
+  .footer a {
+    font-size: 1.5rem;
+  }
+  .footer {
+    padding-top: 1.875rem;
+  }
+  .footer__title {
+    font-size: 1.75rem;
+    padding-top: 3.125rem;
+    margin-bottom: 1.875rem;
+  }
+  .footer__logo_text {
+    font-size: 3rem;
+    margin-bottom: 3.125rem;
+  }
+  .footer__logo {
+    left: 183px;
+    top: 0;
+    width: 3rem;
   }
 }
 @media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
   .nav-link {
     font-size: 20px;
   }
@@ -815,21 +879,5 @@ body {
   }
   .footer__title, .footer__link {
     font-size: 17px;
-  }
-}
-@media (max-width: 1920px) {
-  body {
-    max-width: 1920px;
-  }
-  .container-xxl {
-    max-width: 1325px;
-  }
-}
-@media (max-width: 2560px) {
-  body {
-    max-width: 2560px;
-  }
-  .container-xxl {
-    max-width: 1325px;
   }
 }/*# sourceMappingURL=style.css.map */
