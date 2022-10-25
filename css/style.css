@@ -694,13 +694,117 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 575px) {
+@media (max-width: 1199px) {
+  .nav-link {
+    font-size: 23px;
+  }
+  .lang__position {
+    margin-right: 40px;
+  }
+  .one__text-wellcome,
+.one__title {
+    font-size: 45px;
+  }
+  .btn {
+    font-size: 16px;
+    margin: 0
+  }
+  .box__two img {
+    max-width: 375px;
+  }
+  .card {
+    max-width: 17rem;
+    margin-bottom: 16px;
+  }
+  .card_price {
+    max-width: 17rem;
+  }
+  .three__carusel{
+    max-width: 100%;
+  }
+  .footer__title, .footer__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-link {
+    font-size: 20px;
+  }
+  .section__one {
+    min-height: 750px;
+    padding-top: 80px;
+  }
+  .one__text {
+    font-size: 15px;
+  }
+  .one__text-wellcome,
+.one__title {
+    font-size: 35px;
+  }
+  .box__button {
+    text-align: center;
+  }
+  .btn {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .btn-warning{
+    margin-right: 0;
+  }
+  .box__two img {
+    max-width: 375px;
+  }
+  .two__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .two__about-work {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .three__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .four__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  .two__cards {
+    margin-bottom: 30px;
+  }
+  .three__carusel {
+    padding-bottom: 50px;
+  }
+  .card {
+    max-width: 19rem;
+  }
+  .card_price {
+    max-width: 14rem;
+    margin: 0 auto 16px;
+  }
+  .two__about-work-img {
+    max-width: 150px;
+  }
+  .footer__title, .footer__link {
+    font-size: 17px;
+  }
+  .footer__list{
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
   .container-sx {
     width: 100%;
   }
   .section__one {
     width: 100%;
-    position: relative;
     padding-top: 3.75rem;
   }
   .one__text-wellcome {
@@ -722,13 +826,10 @@ body {
     margin: 0;
     font-size: 1.25rem;
   }
-  .btn:not(:last-child) {
+  .btn {
     margin-bottom: 0.5rem;
   }
   .box__two {
-    position: absolute;
-    right: 0;
-    bottom: 40%;
   }
   .box__two img {
     width: 18.75rem;
@@ -788,96 +889,7 @@ body {
     top: 0;
     width: 3rem;
   }
-}
-@media (min-width: 768px) {
-  .nav-link {
-    font-size: 20px;
-  }
-  .section__one {
-    min-height: 750px;
-    padding-top: 80px;
-  }
-  .one__text {
-    font-size: 15px;
-  }
-  .one__text-wellcome,
-.one__title {
-    font-size: 35px;
-  }
-  .box__button {
+  .footer__list{
     text-align: center;
   }
-  .btn {
-    font-size: 14px;
-    margin: 0 auto;
-  }
-  .box__two img {
-    max-width: 375px;
-  }
-  .two__title {
-    font-size: 30px;
-    padding-top: 50px;
-    margin-bottom: 30px;
-  }
-  .two__about-work {
-    font-size: 30px;
-    padding-top: 50px;
-    margin-bottom: 30px;
-  }
-  .three__title {
-    font-size: 30px;
-    padding-top: 50px;
-    margin-bottom: 30px;
-  }
-  .four__title {
-    font-size: 30px;
-    padding-top: 50px;
-    margin-bottom: 30px;
-  }
-  .two__cards {
-    margin-bottom: 30px;
-  }
-  .three__carusel {
-    padding-bottom: 50px;
-  }
-  .card {
-    max-width: 19rem;
-  }
-  .card_price {
-    max-width: 14rem;
-    margin: 0 auto 16px;
-  }
-  .two__about-work-img {
-    max-width: 150px;
-  }
-  .footer__title, .footer__link {
-    font-size: 17px;
-  }
 }
-@media (max-width: 1199px) {
-  .nav-link {
-    font-size: 23px;
-  }
-  .lang__position {
-    margin-right: 40px;
-  }
-  .one__text-wellcome,
-.one__title {
-    font-size: 50px;
-  }
-  .btn {
-    font-size: 20px;
-  }
-  .box__two img {
-    max-width: 490px;
-  }
-  .card {
-    max-width: 19rem;
-  }
-  .card_price {
-    max-width: 14rem;
-  }
-  .footer__title, .footer__link {
-    font-size: 17px;
-  }
-}/*# sourceMappingURL=style.css.map */
