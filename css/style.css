@@ -800,6 +800,12 @@ body {
 }
 
 @media (max-width: 575px) {
+   html {
+   overflow-x: hidden;
+   }
+   body {
+   overflow-x: hidden;
+   }
   .container-sx {
     width: 100%;
   }
